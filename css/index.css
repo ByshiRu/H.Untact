@@ -1,0 +1,271 @@
+@import url("font.css");
+
+body {
+    background: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+#index {
+    width: 1440px;
+    height: 900px;
+    border: 1px white solid;
+    margin: 0px auto;
+    box-sizing: border-box;
+    display: block;
+}
+
+/* Lobby Start */
+
+#lobby {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: block;
+}
+
+#lobbyTitle {
+    position: absolute;
+    color: #efefef;
+    line-height: 29px;
+    font-size: 21px;
+    letter-spacing: -0.03em;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-family: "Gotham-L", "Apple-Gothic-L";
+}
+
+#arrow {
+    position: relative;
+    left: -1px;
+    top: -1px;
+    width: 443.25px;
+    height: 443.25px;
+}
+
+#exhibit {
+    position: absolute;
+    width: 59px;
+    height: 19px;
+    padding-left: 259px;
+    padding-top: 273px;
+}
+
+#lobbyLine1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    padding-left: 167.5px;
+    padding-top: 455px;
+}
+
+#lobbyLine2 {
+    position: absolute;
+    padding-left: 455px;
+    padding-top: 165px;
+}
+
+#widthHeight {
+    position: absolute;
+    width: 75px;
+    height: 19px;
+    padding-left: 251px;
+    padding-top: 296px;
+}
+
+/* Lobby End */
+
+/* Section 1 Start */
+
+#Section1 {
+    position: relative;
+    left: 576px;
+    top: -482px;
+    width: 826px;
+    height: 136px;
+    display: block;
+}
+
+#sec1Line {
+    height: 6px;
+    border-top: 1px #efefef solid;
+    border-bottom: 1px #efefef solid;
+}
+
+#sec1Text {
+    position: absolute;
+    width: 200px;
+    height: 19px;
+    left: 313px;
+    top: 30px;
+    font-family: Apple-Gothic-B; 
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #efefef;
+}
+
+/* Section 1 End */
+
+/* Section 2 Start */
+
+#Section2 {
+    position: relative;
+    width: 453px;
+    height: 730px;
+    left: 966px;
+    top: -487px;
+    display: block;
+}
+
+#sec2Line1 {
+    position: absolute;
+    width: 453px;
+    height: 730px;
+    border-right: 1px #efefef solid;
+    border-bottom: 1px #efefef solid;
+}
+
+#sec2Line2 {
+    position: absolute;
+    width: 446px;
+    height: 723px;
+    border-right: 1px #efefef solid;
+    border-bottom: 1px #efefef solid;
+}
+
+/* Part 1 */
+
+#Section2Area1 {
+    position: relative;
+    float: right;
+    width: 322px;
+    height: 540px;
+    display: block;
+}
+
+#sec2A1Text1 {
+    position: absolute;
+    width: 59px;
+    height: 19px;
+    left: 67px;
+    top: 57px;
+    font-family: Apple-Gothic-B; 
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #efefef;
+}
+
+#sec2A1Text2 {
+    position: absolute;
+    width: 82px;
+    height: 19px;
+    left: 56px;
+    top: 83px;
+    font-family: Apple-Gothic-B; 
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #636363;
+}
+
+#sec2A1Text3 {
+    position: absolute;
+    width: 191px;
+    height: 19px;
+    left: 188px;
+    top: 335px;
+    font-family: Apple-Gothic-B; 
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #efefef;
+    transform: rotate(90deg);
+}
+
+/* Part 2 */
+
+#Section2Area2 {
+    position: relative;
+    top: 540px;
+    width: 453px;
+    height: 190px;
+    display: block;
+}
+
+#sec2A2Text1 {
+    position: absolute;
+    width: 191px;
+    height: 19px;
+    left: 131px;
+    top: 145px;
+    font-family: Apple-Gothic-B; 
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #efefef;
+}
+
+/* Section 2 End */
+
+/* Section 3 Start */
+
+#Section3 {
+    position: relative;
+    left: 26px;
+    top: -677px;
+    width: 734px;
+    height: 189px;
+    display: block;
+}
+
+#sec3Line1 {
+    position: absolute;
+    top: 183px;
+    width: 734px;
+    height: 6px;
+    border-top: 1px #efefef solid;
+    border-bottom: 1px #efefef solid;
+}
+
+#sec3Text {
+    position: absolute;
+    width: 137px;
+    height: 19px;
+    left: 298px;
+    top: 145px;
+    font-family: Apple-Gothic-B; 
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #efefef;
+}
+
+/* Section 3 End */
+
+/* Section 4 Start */
+
+#Section4 {
+    position: relative;
+    top: -1100px;
+    left: 705px;
+    width: 315.5px;
+    height: 185px;
+    display: block;
+}
+
+/* Section 4 End */

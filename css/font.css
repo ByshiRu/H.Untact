@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Gotham-L";
+    src: url("../font/Gotham-Light.ttf") format('truetype');
+}
+/*고담 라이트 (피그마 정의상 Medium)*/
+
+@font-face {
+    font-family: "Gotham-Book";
+    src: url("../font/Gotham-Book.ttf") format('truetype');
+} 
+/*고담 북 (피그마 정의상 Bold)*/
+
+@font-face {
+    font-family: "Apple-Gothic-L";
+    src: url("../font/AppleSDGothicNeoL.ttf") format('truetype');
+}
+/*애플고딕 라이트 (피그마 정의상 Medium)*/
+
+@font-face {
+    font-family: "Apple-Gothic-B";
+    src: url("../font/AppleSDGothicNeoB.ttf") format('truetype');
+} 
+/*애플고딕 미디움 (피그마 정의상 Bold)*/
