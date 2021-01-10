@@ -1,0 +1,39 @@
+body {
+    max-width: 99vh;
+    max-height: 100vh;
+    margin: 0px;
+    background-color: black;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+iframe {
+    border: 0px;
+}
+
+#wrapper {
+    width: 99vh;
+    height: 99vh;
+}
+
+#work {
+    position: relative;
+    width: 70vw;
+    height: 99vh;
+    float: left;
+    border: 1px white solid;
+    border-right: none;
+    box-sizing: border-box;
+}
+
+#info {
+    position: absolute;
+    width: 30vw;
+    height: 99vh;
+    float: right;
+    border: 1px white solid;
+    box-sizing: border-box;
+}
